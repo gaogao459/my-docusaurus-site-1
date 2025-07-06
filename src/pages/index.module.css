@@ -168,16 +168,25 @@ body {
 .ctaButton {
     background-color: white;
     color: #581c87;
-    padding: 0.5rem 1.5rem;
+    padding: 0.75rem 1.5rem;
     border-radius: 9999px;
-    font-weight: 600;
-    border: none;
+    font-weight: 700;
+    font-size: 1rem;
+    border: 2px solid transparent;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    min-width: 120px;
 }
 
 .ctaButton:hover {
-    background-color: #f3f4f6;
+    background-color: #f8f9fa;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.15);
+    border-color: #e5e7eb;
 }
 
 /* Hero section styles */
@@ -281,31 +290,62 @@ body {
 .primaryButton {
     background-color: #22c55e;
     color: white;
-    padding: 0.75rem 2rem;
+    padding: 1rem 2.5rem;
     border-radius: 9999px;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1.125rem;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 14px 0 rgba(34, 197, 94, 0.3);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    min-width: 160px;
+    position: relative;
+    overflow: hidden;
 }
 
 .primaryButton:hover {
     background-color: #16a34a;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px 0 rgba(34, 197, 94, 0.4);
+}
+
+.primaryButton:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 14px 0 rgba(34, 197, 94, 0.3);
 }
 
 .secondaryButton {
     background-color: white;
     color: #581c87;
-    padding: 0.75rem 2rem;
+    padding: 1rem 2.5rem;
     border-radius: 9999px;
-    font-weight: 600;
-    border: none;
+    font-weight: 700;
+    font-size: 1.125rem;
+    border: 2px solid transparent;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    min-width: 160px;
+    position: relative;
+    overflow: hidden;
 }
 
 .secondaryButton:hover {
-    background-color: #f3f4f6;
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.15);
+    border-color: #e5e7eb;
+}
+
+.secondaryButton:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
 }
 
 .heroRight {
@@ -661,40 +701,56 @@ body {
 .button {
     padding: 0.75rem 2rem;
     border-radius: 9999px;
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 1rem;
     border: none;
     cursor: pointer;
-    transition: all 0.3s;
+    transition: all 0.3s ease;
     text-decoration: none;
     display: inline-block;
     text-align: center;
+    min-width: 140px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
 }
 
 .buttonPurple {
     background-color: #9333ea;
     color: white;
+    box-shadow: 0 4px 14px 0 rgba(147, 51, 234, 0.3);
 }
 
 .buttonPurple:hover {
     background-color: #7e22ce;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px 0 rgba(147, 51, 234, 0.4);
 }
 
 .buttonGreen {
     background-color: #22c55e;
     color: white;
+    box-shadow: 0 4px 14px 0 rgba(34, 197, 94, 0.3);
 }
 
 .buttonGreen:hover {
     background-color: #16a34a;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px 0 rgba(34, 197, 94, 0.4);
 }
 
 .buttonWhite {
     background-color: white;
     color: #581c87;
+    border: 2px solid transparent;
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
 }
 
 .buttonWhite:hover {
-    background-color: #f3f4f6;
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.15);
+    border-color: #e5e7eb;
 }
 
 /* Image styles */

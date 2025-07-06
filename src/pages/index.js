@@ -49,7 +49,7 @@ export default function Home() {
           {/* Right Image/Graphic Placeholder */}
           <div className={styles.heroRight}>
             <img 
-              src="/img/hero-automation.png" 
+              src="/img/ffffff.png" 
               alt="AI 自动化图形" 
               className={styles.heroImage}
               onError={(e) => {
@@ -136,7 +136,7 @@ export default function Home() {
             {/* Right Image */}
             <div className={`${styles.justifyCenter} ${styles.lgJustifyEnd} ${styles.lgWHalf}`}>
               <img 
-                src="/img/business-automation.png" 
+                src="/img/333333" 
                 alt="业务自动化桌面" 
                 className={styles.image}
                 onError={(e) => {
@@ -241,7 +241,7 @@ export default function Home() {
             {/* Right Image/Graphic Placeholder */}
             <div className={`${styles.justifyCenter} ${styles.lgJustifyEnd} ${styles.lgWHalf}`}>
               <img 
-                src="/img/team-automation.png" 
+                src="/img/8a2be2" 
                 alt="团队自动化图形" 
                 className={styles.imageLarge}
                 onError={(e) => {
@@ -260,7 +260,7 @@ export default function Home() {
             {/* Left Image/Graphic Placeholder */}
             <div className={`${styles.justifyCenter} ${styles.lgJustifyStart} ${styles.lgOrder1} ${styles.lgWHalf}`}>
               <img 
-                src="/img/ai-interconnected.png" 
+                src="/img/ffffff(1)" 
                 alt="互联的 AI 图标" 
                 className={styles.imageLarge}
                 onError={(e) => {
@@ -330,16 +330,16 @@ export default function Home() {
             <h2 className={`${styles.sectionTitle} ${styles.mb12}`}>加入数千家通过 Make 实现转型的企业</h2>
             <div className={styles.customerLogos}>
               {/* Placeholder Logos */}
-              <img src="/img/customer-logo-1.png" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
-              <img src="/img/customer-logo-2.png" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
-              <img src="/img/customer-logo-3.png" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
-              <img src="/img/customer-logo-4.png" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
-              <img src="/img/customer-logo-5.png" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
-              <img src="/img/customer-logo-6.png" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
-              <img src="/img/customer-logo-7.png" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
-              <img src="/img/customer-logo-8.png" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
-              <img src="/img/customer-logo-9.png" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
-              <img src="/img/customer-logo-10.png" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
+                             <img src="/img/333333(1)" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
+               <img src="/img/333333(2)" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
+               <img src="/img/333333(3)" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
+               <img src="/img/333333(4)" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
+               <img src="/img/333333(5)" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
+               <img src="/img/333333(6)" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
+               <img src="/img/333333(7)" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
+               <img src="/img/333333(8)" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
+               <img src="/img/333333(9)" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
+               <img src="/img/333333(10)" alt="客户标志" className={styles.customerLogo} onError={(e) => e.target.style.display = 'none'} />
             </div>
           </div>
         </div>
