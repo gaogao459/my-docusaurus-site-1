@@ -28,3 +28,30 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+
+/* Custom gradient background for hero and footer */
+.gradient-bg-hero {
+  background: linear-gradient(135deg, #6a0dad, #8a2be2, #da70d6); /* Purple to pink gradient */
+}
+
+.gradient-bg-section {
+  background: linear-gradient(135deg, #6a0dad, #8a2be2); /* Slightly different purple gradient */
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #6a0dad, #8a2be2); /* Text gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Custom shadow for cards */
+.card-shadow {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Custom border for input */
+.input-border {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
