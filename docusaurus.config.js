@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Make Help Center',
+  tagline: 'Learn how to automate your workflows with Make',
   favicon: 'img/favicon.ico',
   
   
@@ -57,10 +57,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // Edit URL removed to disable "edit this page" links
         },
         blog: {
           showReadingTime: true,
@@ -68,10 +65,7 @@ const config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // Edit URL removed to disable "edit this page" links
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -90,9 +84,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Make Help Center',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Make Help Center Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -100,7 +94,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '开始使用',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -117,8 +111,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: '开始使用',
+                to: '/docs/category/开始使用',
               },
             ],
           },
@@ -153,7 +147,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Make Help Center. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,

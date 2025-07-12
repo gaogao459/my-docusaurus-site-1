@@ -1,0 +1,8 @@
+{
+  "label": "Access Management",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Single sign-on and access control"
+  }
+}

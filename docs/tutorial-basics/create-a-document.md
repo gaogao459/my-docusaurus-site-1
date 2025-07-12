@@ -1,6 +1,11 @@
 ---
+title: "Create A Document"
 sidebar_position: 2
 ---
+
+# Create A Document
+
+# Create A Document
 
 # Create a Document
 
@@ -17,10 +22,7 @@ Create a Markdown file at `docs/hello.md`:
 ```md title="docs/hello.md"
 # Hello
 
-This is my **first Docusaurus document**!
-```
-
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+This is my **first Docusaurus document**.
 
 ## Configure the Sidebar
 
@@ -42,15 +44,7 @@ This is my **first Docusaurus document**!
 It is also possible to create your sidebar explicitly in `sidebars.js`:
 
 ```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
+export default
     },
   ],
 };

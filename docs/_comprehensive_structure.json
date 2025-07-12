@@ -1,0 +1,92 @@
+{
+  "visited_urls": [
+    "https://help.make.com/step-3-create-a-scenario-to-send-tasks-to-the-ai-agent \"Step 3. Create a scenario to send tasks to the AI agent\"",
+    "https://help.make.com/key-concepts \"Key concepts\"",
+    "https://help.make.com/scenario-execution-flow",
+    "https://help.make.com/resources",
+    "https://help.make.com/types-of-warnings",
+    "https://help.make.com/blueprints \"Scenario blueprints\"",
+    "https://help.make.com/developers",
+    "https://help.make.com/error-handling",
+    "https://help.make.com/scenarios-and-connections \"Scenarios & connections\"",
+    "https://help.make.com/scenario-history",
+    "https://help.make.com/active-and-inactive-scenarios",
+    "https://help.make.com/item-data-types",
+    "https://help.make.com/selecting-the-first-bundle \"Selecting the first bundle\"",
+    "https://help.make.com/connect-an-application",
+    "https://help.make.com/expand-your-scenario",
+    "https://help.make.com/Vk13-tools",
+    "https://help.make.com/connect-an-application \"Connect an application\"",
+    "https://help.make.com/blueprints",
+    "https://help.make.com/scenario-templates \"Scenario templates\"",
+    "https://help.make.com/selecting-the-first-bundle",
+    "https://help.make.com/throw",
+    "https://help.make.com/item-data-types \"Item data types\"",
+    "https://help.make.com/schedule-a-scenario",
+    "https://help.make.com/your-organization",
+    "https://help.make.com/create-your-first-scenario",
+    "https://help.make.com/introduction-to-errors-and-warnings",
+    "https://help.make.com/how-to-handle-errors",
+    "https://help.make.com/key-concepts",
+    "https://help.make.com/introduction-to-make-apps",
+    "https://help.make.com/data-and-mapping",
+    "https://help.make.com/step-7-test-the-final-scenario \"Step 7. Test the final scenario\"",
+    "https://help.make.com/operations",
+    "https://help.make.com/get-started",
+    "https://help.make.com/step-7-test-the-final-scenario",
+    "https://help.make.com/scenarios-and-connections",
+    "https://help.make.com/apps-and-modules",
+    "https://help.make.com/introduction-to-errors-and-warnings \"Introduction to errors and warnings\"",
+    "https://help.make.com/learn-the-basics",
+    "https://help.make.com/introduction-to-make-apps \"Introduction to Make apps\"",
+    "https://help.make.com/scenario-templates"
+  ],
+  "docs_structure": {
+    "get-started": [
+      "get-started",
+      "expand-your-scenario",
+      "create-your-first-scenario",
+      "learn-the-basics"
+    ],
+    "key-concepts": [
+      "key-concepts",
+      "scenarios-and-connections",
+      "apps-and-modules",
+      "data-and-mapping"
+    ],
+    "error-handling": [
+      "error-handling",
+      "how-to-handle-errors"
+    ],
+    "developers": [
+      "developers"
+    ],
+    "organization": [
+      "your-organization"
+    ],
+    "misc": [
+      "resources",
+      "Vk13-tools",
+      "scenario-history",
+      "schedule-a-scenario",
+      "active-and-inactive-scenarios",
+      "blueprints",
+      "selecting-the-first-bundle"
+    ],
+    "tutorials": [
+      "step-7-test-the-final-scenario"
+    ]
+  },
+  "total_pages": 40,
+  "total_files": 20,
+  "seed_urls": [
+    "https://help.make.com/get-started",
+    "https://help.make.com/key-concepts",
+    "https://help.make.com/scenarios-and-connections",
+    "https://help.make.com/apps-and-modules",
+    "https://help.make.com/data-and-mapping",
+    "https://help.make.com/error-handling",
+    "https://help.make.com/developers",
+    "https://help.make.com/your-organization"
+  ]
+}

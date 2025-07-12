@@ -1,0 +1,24 @@
+{
+  "visited_urls": [
+    "https://help.make.com/step-1-plan-your-scenario \"Step 1. Plan your scenario\"",
+    "https://help.make.com/what-is-make \"What is Make?\"",
+    "https://help.make.com/whats-an-api \"What's an API?\"",
+    "https://help.make.com/create-your-first-scenario",
+    "https://help.make.com/get-started \"Get started\"",
+    "https://help.make.com/step-10-schedule-your-scenario \"Step 10. Schedule your scenario\"",
+    "https://help.make.com/get-started",
+    "https://help.make.com/expand-your-scenario",
+    "https://help.make.com/teams",
+    "https://help.make.com/step-1-get-your-app-ready \"Step 1. Get your app ready\"",
+    "https://help.make.com/learn-the-basics"
+  ],
+  "docs_structure": {
+    "get-started": [
+      "get-started",
+      "create-your-first-scenario",
+      "expand-your-scenario",
+      "learn-the-basics"
+    ]
+  },
+  "total_pages": 11
+}
