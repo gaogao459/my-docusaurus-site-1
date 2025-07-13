@@ -25,7 +25,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(level
 logger = logging.getLogger(__name__)
 
 # x.ai API配置
-XAI_API_KEY = "xai-Sz5FgWY3HhIgL0EkGUJ9leKJq35aXRjeOSrOlDMnZiofBXEwAhxVZXfuTAXXc0vJB04IMr6yBNyWCKn7"
+XAI_API_KEY = "xai-Sz"
 XAI_BASE_URL = "https://api.x.ai/v1"
 
 class TranslationAgent:
